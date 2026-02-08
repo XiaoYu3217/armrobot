@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ad7cbb574602bb0ffaed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "learn_moveit",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hello_moveit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello_moveit-855acdd2e6ad4a4e3438.json",
+					"name" : "hello_moveit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "learn_moveit_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learn_moveit_uninstall-b8308b18544db12c4822.json",
+					"name" : "learn_moveit_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_demo1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_demo1-a63d837944d70a28cd9f.json",
+					"name" : "moveit_demo1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1007db701001959418a5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lvy/arms_ws/build/learn_moveit",
+		"source" : "/home/lvy/arms_ws/src/learn_moveit"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

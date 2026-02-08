@@ -1,0 +1,8 @@
+[01m[K/home/lvy/arms_ws/src/learn_moveit/src/hello_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lvy/arms_ws/src/learn_moveit/src/hello_moveit.cpp:63:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kplannning_scene_interface[m[K’ was not declared in this scope; did you mean ‘[01m[Kplanning_scene_interface[m[K’?
+   63 |   addCollisionObjects([01;31m[Kplannning_scene_interface[m[K);
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                       [32m[Kplanning_scene_interface[m[K
+gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76：CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/hello_moveit.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

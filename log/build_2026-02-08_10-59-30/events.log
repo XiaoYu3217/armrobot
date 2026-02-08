@@ -1,0 +1,339 @@
+[0.000000] (-) TimerEvent: {}
+[0.000658] (learn_moveit) JobQueued: {'identifier': 'learn_moveit', 'dependencies': OrderedDict()}
+[0.000735] (panda_description) JobQueued: {'identifier': 'panda_description', 'dependencies': OrderedDict()}
+[0.000752] (panda_configure) JobQueued: {'identifier': 'panda_configure', 'dependencies': OrderedDict([('panda_description', '/home/lvy/arms_ws/install/panda_description')])}
+[0.000811] (panda_description) JobStarted: {'identifier': 'panda_description'}
+[0.008686] (learn_moveit) JobStarted: {'identifier': 'learn_moveit'}
+[0.021065] (panda_description) JobProgress: {'identifier': 'panda_description', 'progress': 'cmake'}
+[0.023403] (panda_description) JobProgress: {'identifier': 'panda_description', 'progress': 'build'}
+[0.023492] (panda_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lvy/arms_ws/build/panda_description', '--', '-j4', '-l4'], 'cwd': '/home/lvy/arms_ws/build/panda_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lvy'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lvy'), ('OLDPWD', '/home/lvy'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2536'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a4727cffcc2800af9bc281126987e38c'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/lvy/arms_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lvy'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lvy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lvy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lvy-VirtualBox:@/tmp/.ICE-unix/2536,unix/lvy-VirtualBox:/tmp/.ICE-unix/2536'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29bb3d00_c663_43f0_9b94_f92c842ba5bb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lvy/arms_ws/build/panda_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a4727cffcc2800af9bc281126987e38c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble')]), 'shell': False}
+[0.034495] (learn_moveit) JobProgress: {'identifier': 'learn_moveit', 'progress': 'cmake'}
+[0.034570] (learn_moveit) JobProgress: {'identifier': 'learn_moveit', 'progress': 'build'}
+[0.034626] (learn_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lvy/arms_ws/build/learn_moveit', '--', '-j4', '-l4'], 'cwd': '/home/lvy/arms_ws/build/learn_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lvy'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lvy'), ('OLDPWD', '/home/lvy'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2536'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a4727cffcc2800af9bc281126987e38c'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/lvy/arms_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lvy'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lvy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lvy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lvy-VirtualBox:@/tmp/.ICE-unix/2536,unix/lvy-VirtualBox:/tmp/.ICE-unix/2536'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29bb3d00_c663_43f0_9b94_f92c842ba5bb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lvy/arms_ws/build/learn_moveit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a4727cffcc2800af9bc281126987e38c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble')]), 'shell': False}
+[0.087860] (panda_description) CommandEnded: {'returncode': 0}
+[0.104207] (-) TimerEvent: {}
+[0.104420] (panda_description) JobProgress: {'identifier': 'panda_description', 'progress': 'install'}
+[0.104502] (panda_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lvy/arms_ws/build/panda_description'], 'cwd': '/home/lvy/arms_ws/build/panda_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lvy'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lvy'), ('OLDPWD', '/home/lvy'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2536'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a4727cffcc2800af9bc281126987e38c'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/lvy/arms_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lvy'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lvy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lvy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lvy-VirtualBox:@/tmp/.ICE-unix/2536,unix/lvy-VirtualBox:/tmp/.ICE-unix/2536'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29bb3d00_c663_43f0_9b94_f92c842ba5bb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lvy/arms_ws/build/panda_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a4727cffcc2800af9bc281126987e38c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble')]), 'shell': False}
+[0.116889] (panda_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.117874] (panda_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.119884] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/ament_index/resource_index/package_run_dependencies/panda_description\n'}
+[0.122286] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/ament_index/resource_index/parent_prefix_path/panda_description\n'}
+[0.123661] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/environment/ament_prefix_path.sh\n'}
+[0.124138] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/environment/ament_prefix_path.dsv\n'}
+[0.125848] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/environment/path.sh\n'}
+[0.126116] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/environment/path.dsv\n'}
+[0.126360] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/local_setup.bash\n'}
+[0.126632] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/local_setup.sh\n'}
+[0.126880] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/local_setup.zsh\n'}
+[0.127124] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/local_setup.dsv\n'}
+[0.127367] (panda_description) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/panda_description/share/panda_description/package.dsv\n'}
+[0.144349] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/ament_index/resource_index/packages/panda_description\n'}
+[0.146102] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/cmake/panda_descriptionConfig.cmake\n'}
+[0.146167] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/cmake/panda_descriptionConfig-version.cmake\n'}
+[0.146207] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/package.xml\n'}
+[0.146244] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/collision/finger.stl\n'}
+[0.152863] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/collision/hand.stl\n'}
+[0.153389] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/collision/link0.stl\n'}
+[0.153450] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/collision/link1.stl\n'}
+[0.153494] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/collision/link2.stl\n'}
+[0.153532] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/collision/link3.stl\n'}
+[0.153570] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/collision/link4.stl\n'}
+[0.153606] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/collision/link5.stl\n'}
+[0.153642] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/collision/link6.stl\n'}
+[0.153677] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/collision/link7.stl\n'}
+[0.153721] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/visual/finger.dae\n'}
+[0.153756] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/visual/hand.dae\n'}
+[0.153794] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/visual/link0.dae\n'}
+[0.153829] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/visual/link1.dae\n'}
+[0.153864] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/visual/link2.dae\n'}
+[0.153898] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/visual/link3.dae\n'}
+[0.153931] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/visual/link4.dae\n'}
+[0.153966] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/visual/link5.dae\n'}
+[0.153999] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/visual/link6.dae\n'}
+[0.154052] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/meshes/visual/link7.dae\n'}
+[0.154290] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/urdf/panda.urdf\n'}
+[0.154744] (panda_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_description/share/panda_description/urdf/panda.urdf.xacro\n'}
+[0.155198] (learn_moveit) StdoutLine: {'line': b'[ 50%] Built target hello_moveit\n'}
+[0.155280] (learn_moveit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveit_demo1\x1b[0m\n'}
+[0.159732] (panda_description) CommandEnded: {'returncode': 0}
+[0.185310] (panda_description) JobEnded: {'identifier': 'panda_description', 'rc': 0}
+[0.187276] (panda_configure) JobStarted: {'identifier': 'panda_configure'}
+[0.195059] (learn_moveit) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/moveit_demo1.dir/src/moveit_demo1.cpp.o\x1b[0m\n'}
+[0.198822] (panda_configure) JobProgress: {'identifier': 'panda_configure', 'progress': 'cmake'}
+[0.200975] (panda_configure) JobProgress: {'identifier': 'panda_configure', 'progress': 'build'}
+[0.201090] (panda_configure) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lvy/arms_ws/build/panda_configure', '--', '-j4', '-l4'], 'cwd': '/home/lvy/arms_ws/build/panda_configure', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lvy'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lvy'), ('OLDPWD', '/home/lvy'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2536'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a4727cffcc2800af9bc281126987e38c'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/lvy/arms_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lvy'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lvy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lvy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lvy-VirtualBox:@/tmp/.ICE-unix/2536,unix/lvy-VirtualBox:/tmp/.ICE-unix/2536'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29bb3d00_c663_43f0_9b94_f92c842ba5bb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lvy/arms_ws/build/panda_configure'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a4727cffcc2800af9bc281126987e38c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble')]), 'shell': False}
+[0.204649] (-) TimerEvent: {}
+[0.286610] (panda_configure) CommandEnded: {'returncode': 0}
+[0.287548] (panda_configure) JobProgress: {'identifier': 'panda_configure', 'progress': 'install'}
+[0.287617] (panda_configure) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lvy/arms_ws/build/panda_configure'], 'cwd': '/home/lvy/arms_ws/build/panda_configure', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lvy'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lvy'), ('OLDPWD', '/home/lvy'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2536'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a4727cffcc2800af9bc281126987e38c'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/lvy/arms_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lvy'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lvy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lvy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lvy-VirtualBox:@/tmp/.ICE-unix/2536,unix/lvy-VirtualBox:/tmp/.ICE-unix/2536'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29bb3d00_c663_43f0_9b94_f92c842ba5bb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lvy/arms_ws/build/panda_configure'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a4727cffcc2800af9bc281126987e38c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble')]), 'shell': False}
+[0.292951] (panda_configure) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.293603] (panda_configure) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.294114] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/ament_index/resource_index/package_run_dependencies/panda_configure\n'}
+[0.294589] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/ament_index/resource_index/parent_prefix_path/panda_configure\n'}
+[0.305669] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/environment/ament_prefix_path.sh\n'}
+[0.305818] (-) TimerEvent: {}
+[0.305919] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/environment/ament_prefix_path.dsv\n'}
+[0.305974] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/environment/path.sh\n'}
+[0.306013] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/environment/path.dsv\n'}
+[0.306051] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/local_setup.bash\n'}
+[0.306084] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/local_setup.sh\n'}
+[0.307723] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/local_setup.zsh\n'}
+[0.307911] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/local_setup.dsv\n'}
+[0.307959] (panda_configure) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/package.dsv\n'}
+[0.321242] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/ament_index/resource_index/packages/panda_configure\n'}
+[0.321793] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/cmake/panda_configureConfig.cmake\n'}
+[0.321953] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/cmake/panda_configureConfig-version.cmake\n'}
+[0.322001] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/package.xml\n'}
+[0.322283] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/launch/demo.launch.py\n'}
+[0.322553] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/launch/move_group.launch.py\n'}
+[0.322953] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/launch/moveit_rviz.launch.py\n'}
+[0.323468] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/launch/rsp.launch.py\n'}
+[0.324023] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/launch/setup_assistant.launch.py\n'}
+[0.324128] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/launch/spawn_controllers.launch.py\n'}
+[0.324340] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/launch/static_virtual_joint_tfs.launch.py\n'}
+[0.324407] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/launch/warehouse_db.launch.py\n'}
+[0.324816] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/config/initial_positions.yaml\n'}
+[0.324891] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/config/joint_limits.yaml\n'}
+[0.325051] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/config/kinematics.yaml\n'}
+[0.325227] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/config/moveit.rviz\n'}
+[0.325338] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/config/moveit_controllers.yaml\n'}
+[0.325625] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/config/panda.ros2_control.xacro\n'}
+[0.326134] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/config/panda.srdf\n'}
+[0.326203] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/config/panda.urdf.xacro\n'}
+[0.326242] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/config/pilz_cartesian_limits.yaml\n'}
+[0.326277] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/config/ros2_controllers.yaml\n'}
+[0.327734] (panda_configure) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/panda_configure/share/panda_configure/.setup_assistant\n'}
+[0.329255] (panda_configure) CommandEnded: {'returncode': 0}
+[0.369267] (panda_configure) JobEnded: {'identifier': 'panda_configure', 'rc': 0}
+[0.409065] (-) TimerEvent: {}
+[0.511939] (-) TimerEvent: {}
+[0.613606] (-) TimerEvent: {}
+[0.717695] (-) TimerEvent: {}
+[0.819399] (-) TimerEvent: {}
+[0.923222] (-) TimerEvent: {}
+[1.024387] (-) TimerEvent: {}
+[1.125635] (-) TimerEvent: {}
+[1.231659] (-) TimerEvent: {}
+[1.336288] (-) TimerEvent: {}
+[1.443027] (-) TimerEvent: {}
+[1.544370] (-) TimerEvent: {}
+[1.646431] (-) TimerEvent: {}
+[1.749017] (-) TimerEvent: {}
+[1.852110] (-) TimerEvent: {}
+[1.953430] (-) TimerEvent: {}
+[2.054052] (-) TimerEvent: {}
+[2.155406] (-) TimerEvent: {}
+[2.257013] (-) TimerEvent: {}
+[2.358487] (-) TimerEvent: {}
+[2.459092] (-) TimerEvent: {}
+[2.561137] (-) TimerEvent: {}
+[2.662324] (-) TimerEvent: {}
+[2.768174] (-) TimerEvent: {}
+[2.877356] (-) TimerEvent: {}
+[2.978503] (-) TimerEvent: {}
+[3.083940] (-) TimerEvent: {}
+[3.188280] (-) TimerEvent: {}
+[3.290143] (-) TimerEvent: {}
+[3.398480] (-) TimerEvent: {}
+[3.505301] (-) TimerEvent: {}
+[3.620625] (-) TimerEvent: {}
+[3.722732] (-) TimerEvent: {}
+[3.825504] (-) TimerEvent: {}
+[3.935823] (-) TimerEvent: {}
+[4.036944] (-) TimerEvent: {}
+[4.140438] (-) TimerEvent: {}
+[4.246319] (-) TimerEvent: {}
+[4.350110] (-) TimerEvent: {}
+[4.452152] (-) TimerEvent: {}
+[4.555348] (-) TimerEvent: {}
+[4.673299] (-) TimerEvent: {}
+[4.776043] (-) TimerEvent: {}
+[4.879244] (-) TimerEvent: {}
+[4.980268] (-) TimerEvent: {}
+[5.084397] (-) TimerEvent: {}
+[5.197081] (-) TimerEvent: {}
+[5.300190] (-) TimerEvent: {}
+[5.404883] (-) TimerEvent: {}
+[5.511227] (-) TimerEvent: {}
+[5.614462] (-) TimerEvent: {}
+[5.715816] (-) TimerEvent: {}
+[5.817156] (-) TimerEvent: {}
+[5.920064] (-) TimerEvent: {}
+[6.043889] (-) TimerEvent: {}
+[6.145347] (-) TimerEvent: {}
+[6.252425] (-) TimerEvent: {}
+[6.357490] (-) TimerEvent: {}
+[6.459340] (-) TimerEvent: {}
+[6.562865] (-) TimerEvent: {}
+[6.680582] (-) TimerEvent: {}
+[6.781184] (-) TimerEvent: {}
+[6.884277] (-) TimerEvent: {}
+[6.993941] (-) TimerEvent: {}
+[7.095320] (-) TimerEvent: {}
+[7.196214] (-) TimerEvent: {}
+[7.299795] (-) TimerEvent: {}
+[7.400942] (-) TimerEvent: {}
+[7.504556] (-) TimerEvent: {}
+[7.609087] (-) TimerEvent: {}
+[7.715726] (-) TimerEvent: {}
+[7.824221] (-) TimerEvent: {}
+[7.936384] (-) TimerEvent: {}
+[8.039155] (-) TimerEvent: {}
+[8.143220] (-) TimerEvent: {}
+[8.244958] (-) TimerEvent: {}
+[8.346045] (-) TimerEvent: {}
+[8.450361] (-) TimerEvent: {}
+[8.553091] (-) TimerEvent: {}
+[8.654959] (-) TimerEvent: {}
+[8.768170] (-) TimerEvent: {}
+[8.895042] (-) TimerEvent: {}
+[8.996879] (-) TimerEvent: {}
+[9.113773] (-) TimerEvent: {}
+[9.216410] (-) TimerEvent: {}
+[9.320400] (-) TimerEvent: {}
+[9.421680] (-) TimerEvent: {}
+[9.525292] (-) TimerEvent: {}
+[9.627497] (-) TimerEvent: {}
+[9.729757] (-) TimerEvent: {}
+[9.833380] (-) TimerEvent: {}
+[9.950951] (-) TimerEvent: {}
+[10.052879] (-) TimerEvent: {}
+[10.154946] (-) TimerEvent: {}
+[10.255778] (-) TimerEvent: {}
+[10.358505] (-) TimerEvent: {}
+[10.459882] (-) TimerEvent: {}
+[10.570273] (-) TimerEvent: {}
+[10.673144] (-) TimerEvent: {}
+[10.782715] (-) TimerEvent: {}
+[10.891053] (-) TimerEvent: {}
+[10.993272] (-) TimerEvent: {}
+[11.117032] (-) TimerEvent: {}
+[11.245830] (-) TimerEvent: {}
+[11.354907] (-) TimerEvent: {}
+[11.457389] (-) TimerEvent: {}
+[11.560020] (-) TimerEvent: {}
+[11.685241] (-) TimerEvent: {}
+[11.786221] (-) TimerEvent: {}
+[11.892639] (-) TimerEvent: {}
+[11.995989] (-) TimerEvent: {}
+[12.099887] (-) TimerEvent: {}
+[12.214198] (-) TimerEvent: {}
+[12.335511] (-) TimerEvent: {}
+[12.455653] (-) TimerEvent: {}
+[12.572877] (-) TimerEvent: {}
+[12.675644] (-) TimerEvent: {}
+[12.794087] (-) TimerEvent: {}
+[12.904451] (-) TimerEvent: {}
+[13.006882] (-) TimerEvent: {}
+[13.112867] (-) TimerEvent: {}
+[13.213703] (-) TimerEvent: {}
+[13.317145] (-) TimerEvent: {}
+[13.422195] (-) TimerEvent: {}
+[13.524626] (-) TimerEvent: {}
+[13.655692] (-) TimerEvent: {}
+[13.757368] (-) TimerEvent: {}
+[13.865023] (-) TimerEvent: {}
+[13.967560] (-) TimerEvent: {}
+[14.075444] (-) TimerEvent: {}
+[14.179114] (-) TimerEvent: {}
+[14.288698] (-) TimerEvent: {}
+[14.405480] (-) TimerEvent: {}
+[14.525261] (-) TimerEvent: {}
+[14.643194] (-) TimerEvent: {}
+[14.762340] (-) TimerEvent: {}
+[14.864062] (-) TimerEvent: {}
+[14.965671] (-) TimerEvent: {}
+[15.069779] (-) TimerEvent: {}
+[15.190906] (-) TimerEvent: {}
+[15.318356] (-) TimerEvent: {}
+[15.455955] (-) TimerEvent: {}
+[15.557610] (-) TimerEvent: {}
+[15.664820] (-) TimerEvent: {}
+[15.780011] (-) TimerEvent: {}
+[15.888814] (-) TimerEvent: {}
+[15.992315] (-) TimerEvent: {}
+[16.110163] (-) TimerEvent: {}
+[16.220366] (-) TimerEvent: {}
+[16.350702] (-) TimerEvent: {}
+[16.459803] (-) TimerEvent: {}
+[16.588927] (-) TimerEvent: {}
+[16.743770] (-) TimerEvent: {}
+[16.853280] (-) TimerEvent: {}
+[16.958864] (-) TimerEvent: {}
+[17.061682] (-) TimerEvent: {}
+[17.164296] (-) TimerEvent: {}
+[17.267503] (-) TimerEvent: {}
+[17.368905] (-) TimerEvent: {}
+[17.470645] (-) TimerEvent: {}
+[17.576404] (-) TimerEvent: {}
+[17.683394] (-) TimerEvent: {}
+[17.797443] (-) TimerEvent: {}
+[17.900406] (-) TimerEvent: {}
+[18.005273] (-) TimerEvent: {}
+[18.118077] (-) TimerEvent: {}
+[18.228214] (-) TimerEvent: {}
+[18.329309] (-) TimerEvent: {}
+[18.433103] (-) TimerEvent: {}
+[18.536271] (-) TimerEvent: {}
+[18.638929] (-) TimerEvent: {}
+[18.747176] (-) TimerEvent: {}
+[18.853153] (-) TimerEvent: {}
+[18.959806] (-) TimerEvent: {}
+[19.064981] (-) TimerEvent: {}
+[19.176208] (-) TimerEvent: {}
+[19.277486] (-) TimerEvent: {}
+[19.378859] (-) TimerEvent: {}
+[19.490907] (-) TimerEvent: {}
+[19.596516] (-) TimerEvent: {}
+[19.698104] (-) TimerEvent: {}
+[19.802162] (-) TimerEvent: {}
+[19.912961] (-) TimerEvent: {}
+[20.015839] (-) TimerEvent: {}
+[20.117600] (-) TimerEvent: {}
+[20.220276] (-) TimerEvent: {}
+[20.327558] (-) TimerEvent: {}
+[20.444273] (-) TimerEvent: {}
+[20.547311] (-) TimerEvent: {}
+[20.652294] (-) TimerEvent: {}
+[20.757516] (-) TimerEvent: {}
+[20.791039] (learn_moveit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable moveit_demo1\x1b[0m\n'}
+[20.861219] (-) TimerEvent: {}
+[20.966050] (-) TimerEvent: {}
+[21.072905] (-) TimerEvent: {}
+[21.175353] (-) TimerEvent: {}
+[21.277823] (-) TimerEvent: {}
+[21.385509] (-) TimerEvent: {}
+[21.490910] (-) TimerEvent: {}
+[21.592567] (-) TimerEvent: {}
+[21.696171] (-) TimerEvent: {}
+[21.797164] (-) TimerEvent: {}
+[21.858652] (learn_moveit) StdoutLine: {'line': b'[100%] Built target moveit_demo1\n'}
+[21.898035] (-) TimerEvent: {}
+[21.910933] (learn_moveit) CommandEnded: {'returncode': 0}
+[21.919628] (learn_moveit) JobProgress: {'identifier': 'learn_moveit', 'progress': 'install'}
+[21.919680] (learn_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lvy/arms_ws/build/learn_moveit'], 'cwd': '/home/lvy/arms_ws/build/learn_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lvy'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lvy'), ('OLDPWD', '/home/lvy'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2536'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a4727cffcc2800af9bc281126987e38c'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/lvy/arms_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lvy'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lvy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lvy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lvy-VirtualBox:@/tmp/.ICE-unix/2536,unix/lvy-VirtualBox:/tmp/.ICE-unix/2536'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29bb3d00_c663_43f0_9b94_f92c842ba5bb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lvy/arms_ws/build/learn_moveit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a4727cffcc2800af9bc281126987e38c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble')]), 'shell': False}
+[21.952202] (learn_moveit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.952616] (learn_moveit) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[21.952789] (learn_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/lib/learn_moveit/hello_moveit\n'}
+[21.953045] (learn_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/lib/learn_moveit/moveit_demo1\n'}
+[21.953198] (learn_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/launch/hello_moveit.launch.py\n'}
+[21.953331] (learn_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/ament_index/resource_index/package_run_dependencies/learn_moveit\n'}
+[21.953462] (learn_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/ament_index/resource_index/parent_prefix_path/learn_moveit\n'}
+[21.953588] (learn_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/environment/ament_prefix_path.sh\n'}
+[21.953713] (learn_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/environment/ament_prefix_path.dsv\n'}
+[21.953836] (learn_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/environment/path.sh\n'}
+[21.953956] (learn_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/environment/path.dsv\n'}
+[21.954075] (learn_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/local_setup.bash\n'}
+[21.954195] (learn_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/local_setup.sh\n'}
+[21.954315] (learn_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/local_setup.zsh\n'}
+[21.954461] (learn_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/local_setup.dsv\n'}
+[21.954633] (learn_moveit) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/package.dsv\n'}
+[21.998191] (learn_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/ament_index/resource_index/packages/learn_moveit\n'}
+[22.001881] (-) TimerEvent: {}
+[22.003169] (learn_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/cmake/learn_moveitConfig.cmake\n'}
+[22.004067] (learn_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/cmake/learn_moveitConfig-version.cmake\n'}
+[22.004247] (learn_moveit) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/package.xml\n'}
+[22.010576] (learn_moveit) CommandEnded: {'returncode': 0}
+[22.103966] (-) TimerEvent: {}
+[22.110067] (learn_moveit) JobEnded: {'identifier': 'learn_moveit', 'rc': 0}
+[22.114488] (-) EventReactorShutdown: {}

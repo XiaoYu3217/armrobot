@@ -1,0 +1,7 @@
+[01m[K/home/lvy/arms_ws/src/learn_moveit/src/moveit_demo1.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lvy/arms_ws/src/learn_moveit/src/moveit_demo1.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_hand[m[K’ was not declared in this scope
+   62 |     [01;31m[Kmove_group_hand[m[K.setNameTarget("close");
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_demo1.dir/build.make:76：CMakeFiles/moveit_demo1.dir/src/moveit_demo1.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/moveit_demo1.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

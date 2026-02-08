@@ -1,0 +1,163 @@
+[0.000000] (-) TimerEvent: {}
+[0.001482] (-) JobUnselected: {'identifier': 'panda_configure'}
+[0.001526] (-) JobUnselected: {'identifier': 'panda_description'}
+[0.001545] (learn_moveit) JobQueued: {'identifier': 'learn_moveit', 'dependencies': OrderedDict()}
+[0.001562] (learn_moveit) JobStarted: {'identifier': 'learn_moveit'}
+[0.026727] (learn_moveit) JobProgress: {'identifier': 'learn_moveit', 'progress': 'cmake'}
+[0.031292] (learn_moveit) JobProgress: {'identifier': 'learn_moveit', 'progress': 'build'}
+[0.031356] (learn_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lvy/arms_ws/build/learn_moveit', '--', '-j4', '-l4'], 'cwd': '/home/lvy/arms_ws/build/learn_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lvy'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lvy'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2522'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=128f146eb31901c0be496c656986aa36'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lvy'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lvy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lvy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lvy-VirtualBox:@/tmp/.ICE-unix/2522,unix/lvy-VirtualBox:/tmp/.ICE-unix/2522'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a55f9f49_6c9b_44cc_98b9_21c041a6d8e4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lvy/arms_ws/build/learn_moveit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=128f146eb31901c0be496c656986aa36'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100211] (-) TimerEvent: {}
+[0.201266] (-) TimerEvent: {}
+[0.268745] (learn_moveit) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.305473] (-) TimerEvent: {}
+[0.406797] (-) TimerEvent: {}
+[0.487935] (learn_moveit) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.523113] (-) TimerEvent: {}
+[0.530383] (learn_moveit) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.613182] (learn_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.619084] (learn_moveit) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.633583] (-) TimerEvent: {}
+[0.635064] (learn_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.657980] (learn_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.685226] (learn_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.733865] (-) TimerEvent: {}
+[0.752125] (learn_moveit) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.758991] (learn_moveit) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.871561] (-) TimerEvent: {}
+[0.905077] (learn_moveit) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.972876] (-) TimerEvent: {}
+[1.001321] (learn_moveit) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[1.031786] (learn_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[1.073391] (-) TimerEvent: {}
+[1.182360] (-) TimerEvent: {}
+[1.284353] (-) TimerEvent: {}
+[1.306059] (learn_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[1.350795] (learn_moveit) StdoutLine: {'line': b'-- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.366510] (learn_moveit) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.17 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.384742] (-) TimerEvent: {}
+[1.410490] (learn_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[1.463070] (learn_moveit) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.486045] (-) TimerEvent: {}
+[1.509791] (learn_moveit) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.587106] (-) TimerEvent: {}
+[1.688970] (-) TimerEvent: {}
+[1.705369] (learn_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[1.743338] (learn_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[1.770858] (learn_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[1.789160] (-) TimerEvent: {}
+[1.889928] (-) TimerEvent: {}
+[1.900551] (learn_moveit) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.990775] (-) TimerEvent: {}
+[1.992535] (learn_moveit) StdoutLine: {'line': b'-- Generating done\n'}
+[2.002729] (learn_moveit) StdoutLine: {'line': b'-- Build files have been written to: /home/lvy/arms_ws/build/learn_moveit\n'}
+[2.046662] (learn_moveit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hello_moveit\x1b[0m\n'}
+[2.091120] (-) TimerEvent: {}
+[2.191470] (-) TimerEvent: {}
+[2.253057] (learn_moveit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o\x1b[0m\n'}
+[2.295966] (-) TimerEvent: {}
+[2.412868] (-) TimerEvent: {}
+[2.513605] (-) TimerEvent: {}
+[2.630764] (-) TimerEvent: {}
+[2.753293] (-) TimerEvent: {}
+[2.917187] (-) TimerEvent: {}
+[3.022843] (-) TimerEvent: {}
+[3.124581] (-) TimerEvent: {}
+[3.459411] (-) TimerEvent: {}
+[3.639918] (-) TimerEvent: {}
+[3.747057] (-) TimerEvent: {}
+[3.915328] (-) TimerEvent: {}
+[4.046513] (-) TimerEvent: {}
+[4.173275] (-) TimerEvent: {}
+[4.345162] (-) TimerEvent: {}
+[4.562797] (-) TimerEvent: {}
+[4.693347] (-) TimerEvent: {}
+[4.828412] (-) TimerEvent: {}
+[5.038430] (-) TimerEvent: {}
+[5.299896] (-) TimerEvent: {}
+[5.416850] (-) TimerEvent: {}
+[5.523573] (-) TimerEvent: {}
+[5.699053] (-) TimerEvent: {}
+[5.815362] (-) TimerEvent: {}
+[5.917464] (-) TimerEvent: {}
+[6.034198] (-) TimerEvent: {}
+[6.143954] (-) TimerEvent: {}
+[6.254734] (-) TimerEvent: {}
+[6.360039] (-) TimerEvent: {}
+[6.464154] (-) TimerEvent: {}
+[6.566309] (-) TimerEvent: {}
+[6.668141] (-) TimerEvent: {}
+[6.772380] (-) TimerEvent: {}
+[6.889193] (-) TimerEvent: {}
+[7.001751] (-) TimerEvent: {}
+[7.103040] (-) TimerEvent: {}
+[7.208724] (-) TimerEvent: {}
+[7.314375] (-) TimerEvent: {}
+[7.428805] (-) TimerEvent: {}
+[7.538901] (-) TimerEvent: {}
+[7.646106] (-) TimerEvent: {}
+[7.746858] (-) TimerEvent: {}
+[7.865799] (-) TimerEvent: {}
+[7.975845] (-) TimerEvent: {}
+[8.082980] (-) TimerEvent: {}
+[8.197211] (-) TimerEvent: {}
+[8.306776] (-) TimerEvent: {}
+[8.415861] (-) TimerEvent: {}
+[8.537917] (-) TimerEvent: {}
+[8.654408] (-) TimerEvent: {}
+[8.768579] (-) TimerEvent: {}
+[8.879520] (-) TimerEvent: {}
+[8.989120] (-) TimerEvent: {}
+[9.098038] (-) TimerEvent: {}
+[9.207515] (-) TimerEvent: {}
+[9.315054] (-) TimerEvent: {}
+[9.416154] (-) TimerEvent: {}
+[9.535271] (-) TimerEvent: {}
+[9.642899] (-) TimerEvent: {}
+[9.744729] (-) TimerEvent: {}
+[9.856311] (-) TimerEvent: {}
+[9.883857] (learn_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lvy/arms_ws/src/learn_moveit/src/hello_moveit.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.884053] (learn_moveit) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lvy/arms_ws/src/learn_moveit/src/hello_moveit.cpp:63:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kplannning_scene_interface\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kplanning_scene_interface\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.884109] (learn_moveit) StderrLine: {'line': b'   63 |   addCollisionObjects(\x1b[01;31m\x1b[Kplannning_scene_interface\x1b[m\x1b[K);\n'}
+[9.884148] (learn_moveit) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.884183] (learn_moveit) StderrLine: {'line': b'      |                       \x1b[32m\x1b[Kplanning_scene_interface\x1b[m\x1b[K\n'}
+[9.957943] (-) TimerEvent: {}
+[10.058685] (-) TimerEvent: {}
+[10.171424] (-) TimerEvent: {}
+[10.282570] (-) TimerEvent: {}
+[10.384412] (-) TimerEvent: {}
+[10.496796] (-) TimerEvent: {}
+[10.605311] (-) TimerEvent: {}
+[10.715834] (-) TimerEvent: {}
+[10.823765] (-) TimerEvent: {}
+[10.932276] (-) TimerEvent: {}
+[11.052308] (-) TimerEvent: {}
+[11.159205] (-) TimerEvent: {}
+[11.261921] (-) TimerEvent: {}
+[11.375867] (-) TimerEvent: {}
+[11.477618] (-) TimerEvent: {}
+[11.584878] (-) TimerEvent: {}
+[11.695183] (-) TimerEvent: {}
+[11.799583] (-) TimerEvent: {}
+[11.910073] (-) TimerEvent: {}
+[12.023353] (-) TimerEvent: {}
+[12.126935] (-) TimerEvent: {}
+[12.242126] (-) TimerEvent: {}
+[12.343057] (-) TimerEvent: {}
+[12.447400] (-) TimerEvent: {}
+[12.548795] (-) TimerEvent: {}
+[12.658310] (-) TimerEvent: {}
+[12.760478] (-) TimerEvent: {}
+[12.868868] (-) TimerEvent: {}
+[12.980014] (-) TimerEvent: {}
+[13.081431] (-) TimerEvent: {}
+[13.190979] (-) TimerEvent: {}
+[13.296890] (-) TimerEvent: {}
+[13.404274] (-) TimerEvent: {}
+[13.525677] (-) TimerEvent: {}
+[13.602914] (learn_moveit) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76\xef\xbc\x9aCMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[13.603592] (learn_moveit) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/hello_moveit.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[13.604186] (learn_moveit) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[13.606905] (learn_moveit) CommandEnded: {'returncode': 2}
+[13.626604] (-) TimerEvent: {}
+[13.641193] (learn_moveit) JobEnded: {'identifier': 'learn_moveit', 'rc': 2}
+[13.684552] (-) EventReactorShutdown: {}

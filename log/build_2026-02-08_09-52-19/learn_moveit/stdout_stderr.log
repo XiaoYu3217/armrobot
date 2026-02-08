@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_demo1[0m
+[ 50%] Built target hello_moveit
+[100%] Built target moveit_demo1
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/lib/learn_moveit/hello_moveit
+-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/lib/learn_moveit/moveit_demo1
+-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/launch/hello_moveit.launch.py
+-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/ament_index/resource_index/package_run_dependencies/learn_moveit
+-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/ament_index/resource_index/parent_prefix_path/learn_moveit
+-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/environment/path.sh
+-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/environment/path.dsv
+-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/local_setup.bash
+-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/local_setup.sh
+-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/local_setup.zsh
+-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/local_setup.dsv
+-- Symlinking: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/package.dsv
+-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/ament_index/resource_index/packages/learn_moveit
+-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/cmake/learn_moveitConfig.cmake
+-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/cmake/learn_moveitConfig-version.cmake
+-- Up-to-date symlink: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/package.xml

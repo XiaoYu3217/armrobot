@@ -1,0 +1,279 @@
+[0.095s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.096s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75bccfcb7a00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75bccfe6c490>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75bccfe6c490>>)
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.221s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lvy/arms_ws'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_moveit) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_moveit) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_moveit) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_moveit) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_moveit) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_moveit) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_moveit) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_moveit) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learn_moveit' with type 'ros.ament_cmake' and name 'learn_moveit'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot/panda_configure) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot/panda_configure) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot/panda_configure) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot/panda_configure) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot/panda_configure) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot/panda_configure) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot/panda_configure) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot/panda_configure) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot/panda_configure) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'src/panda_robot/panda_configure' with type 'ros.ament_cmake' and name 'panda_configure'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot/panda_description) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot/panda_description) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot/panda_description) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot/panda_description) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot/panda_description) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot/panda_description) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot/panda_description) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot/panda_description) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/panda_robot/panda_description) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/panda_robot/panda_description' with type 'ros.ament_cmake' and name 'panda_description'
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.273s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/lvy/arms_ws/install
+[0.276s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 356 installed packages in /opt/ros/humble
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'learn_moveit' build argument 'cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'learn_moveit' build argument 'cmake_target' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'learn_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'learn_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'learn_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'learn_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'learn_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'learn_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'learn_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.323s] DEBUG:colcon.colcon_core.verb:Building package 'learn_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lvy/arms_ws/build/learn_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lvy/arms_ws/install/learn_moveit', 'merge_install': False, 'path': '/home/lvy/arms_ws/src/learn_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'panda_description' build argument 'cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'panda_description' build argument 'cmake_target' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'panda_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'panda_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'panda_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'panda_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'panda_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'panda_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'panda_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'panda_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lvy/arms_ws/build/panda_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lvy/arms_ws/install/panda_description', 'merge_install': False, 'path': '/home/lvy/arms_ws/src/panda_robot/panda_description', 'symlink_install': False, 'test_result_base': None}
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'panda_configure' build argument 'cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'panda_configure' build argument 'cmake_target' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'panda_configure' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'panda_configure' build argument 'cmake_clean_cache' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'panda_configure' build argument 'cmake_clean_first' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'panda_configure' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'panda_configure' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'panda_configure' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'panda_configure' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'panda_configure' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lvy/arms_ws/build/panda_configure', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lvy/arms_ws/install/panda_configure', 'merge_install': False, 'path': '/home/lvy/arms_ws/src/panda_robot/panda_configure', 'symlink_install': False, 'test_result_base': None}
+[0.327s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.329s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.329s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lvy/arms_ws/src/panda_robot/panda_description' with build type 'ament_cmake'
+[0.330s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lvy/arms_ws/src/panda_robot/panda_description'
+[0.333s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.333s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.333s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.338s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lvy/arms_ws/src/learn_moveit' with build type 'ament_cmake'
+[0.338s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lvy/arms_ws/src/learn_moveit'
+[0.339s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.339s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lvy/arms_ws/build/panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lvy/arms_ws/build/panda_description -- -j4 -l4
+[0.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lvy/arms_ws/build/learn_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lvy/arms_ws/build/learn_moveit -- -j4 -l4
+[0.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lvy/arms_ws/build/panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lvy/arms_ws/build/panda_description -- -j4 -l4
+[0.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lvy/arms_ws/build/panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lvy/arms_ws/build/panda_description
+[0.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_description)
+[0.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lvy/arms_ws/build/panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lvy/arms_ws/build/panda_description
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_description' for CMake module files
+[0.458s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_description' for CMake config files
+[0.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_description', 'cmake_prefix_path')
+[0.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lvy/arms_ws/install/panda_description/share/panda_description/hook/cmake_prefix_path.ps1'
+[0.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lvy/arms_ws/install/panda_description/share/panda_description/hook/cmake_prefix_path.dsv'
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lvy/arms_ws/install/panda_description/share/panda_description/hook/cmake_prefix_path.sh'
+[0.464s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_description/bin'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_description/lib/pkgconfig/panda_description.pc'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_description/lib/python3.10/site-packages'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_description/bin'
+[0.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/panda_description/share/panda_description/package.ps1'
+[0.467s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lvy/arms_ws/install/panda_description/share/panda_description/package.dsv'
+[0.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/panda_description/share/panda_description/package.sh'
+[0.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/panda_description/share/panda_description/package.bash'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/panda_description/share/panda_description/package.zsh'
+[0.474s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lvy/arms_ws/install/panda_description/share/colcon-core/packages/panda_description)
+[0.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_description)
+[0.475s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_description' for CMake module files
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_description' for CMake config files
+[0.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_description', 'cmake_prefix_path')
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lvy/arms_ws/install/panda_description/share/panda_description/hook/cmake_prefix_path.ps1'
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lvy/arms_ws/install/panda_description/share/panda_description/hook/cmake_prefix_path.dsv'
+[0.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lvy/arms_ws/install/panda_description/share/panda_description/hook/cmake_prefix_path.sh'
+[0.480s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_description/bin'
+[0.480s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_description/lib/pkgconfig/panda_description.pc'
+[0.480s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_description/lib/python3.10/site-packages'
+[0.481s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_description/bin'
+[0.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/panda_description/share/panda_description/package.ps1'
+[0.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lvy/arms_ws/install/panda_description/share/panda_description/package.dsv'
+[0.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/panda_description/share/panda_description/package.sh'
+[0.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/panda_description/share/panda_description/package.bash'
+[0.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/panda_description/share/panda_description/package.zsh'
+[0.487s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lvy/arms_ws/install/panda_description/share/colcon-core/packages/panda_description)
+[0.488s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lvy/arms_ws/src/panda_robot/panda_configure' with build type 'ament_cmake'
+[0.488s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lvy/arms_ws/src/panda_robot/panda_configure'
+[0.489s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.489s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lvy/arms_ws/build/panda_configure': CMAKE_PREFIX_PATH=/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble /usr/bin/cmake --build /home/lvy/arms_ws/build/panda_configure -- -j4 -l4
+[0.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lvy/arms_ws/build/panda_configure' returned '0': CMAKE_PREFIX_PATH=/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble /usr/bin/cmake --build /home/lvy/arms_ws/build/panda_configure -- -j4 -l4
+[0.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lvy/arms_ws/build/panda_configure': CMAKE_PREFIX_PATH=/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble /usr/bin/cmake --install /home/lvy/arms_ws/build/panda_configure
+[0.598s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_configure)
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_configure' for CMake module files
+[0.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lvy/arms_ws/build/panda_configure' returned '0': CMAKE_PREFIX_PATH=/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble /usr/bin/cmake --install /home/lvy/arms_ws/build/panda_configure
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_configure' for CMake config files
+[0.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_configure', 'cmake_prefix_path')
+[0.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lvy/arms_ws/install/panda_configure/share/panda_configure/hook/cmake_prefix_path.ps1'
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lvy/arms_ws/install/panda_configure/share/panda_configure/hook/cmake_prefix_path.dsv'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lvy/arms_ws/install/panda_configure/share/panda_configure/hook/cmake_prefix_path.sh'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_configure/bin'
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_configure/lib/pkgconfig/panda_configure.pc'
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_configure/lib/python3.10/site-packages'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_configure/bin'
+[0.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/panda_configure/share/panda_configure/package.ps1'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lvy/arms_ws/install/panda_configure/share/panda_configure/package.dsv'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/panda_configure/share/panda_configure/package.sh'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/panda_configure/share/panda_configure/package.bash'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/panda_configure/share/panda_configure/package.zsh'
+[0.610s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lvy/arms_ws/install/panda_configure/share/colcon-core/packages/panda_configure)
+[0.611s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(panda_configure)
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_configure' for CMake module files
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_configure' for CMake config files
+[0.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('panda_configure', 'cmake_prefix_path')
+[0.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lvy/arms_ws/install/panda_configure/share/panda_configure/hook/cmake_prefix_path.ps1'
+[0.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lvy/arms_ws/install/panda_configure/share/panda_configure/hook/cmake_prefix_path.dsv'
+[0.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lvy/arms_ws/install/panda_configure/share/panda_configure/hook/cmake_prefix_path.sh'
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_configure/bin'
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_configure/lib/pkgconfig/panda_configure.pc'
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_configure/lib/python3.10/site-packages'
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/panda_configure/bin'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/panda_configure/share/panda_configure/package.ps1'
+[0.619s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lvy/arms_ws/install/panda_configure/share/panda_configure/package.dsv'
+[0.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/panda_configure/share/panda_configure/package.sh'
+[0.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/panda_configure/share/panda_configure/package.bash'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/panda_configure/share/panda_configure/package.zsh'
+[0.624s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lvy/arms_ws/install/panda_configure/share/colcon-core/packages/panda_configure)
+[9.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lvy/arms_ws/build/learn_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lvy/arms_ws/build/learn_moveit -- -j4 -l4
+[9.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lvy/arms_ws/build/learn_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lvy/arms_ws/build/learn_moveit
+[9.132s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn_moveit)
+[9.132s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/learn_moveit' for CMake module files
+[9.133s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/learn_moveit' for CMake config files
+[9.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_moveit', 'cmake_prefix_path')
+[9.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/hook/cmake_prefix_path.ps1'
+[9.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lvy/arms_ws/build/learn_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lvy/arms_ws/build/learn_moveit
+[9.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/hook/cmake_prefix_path.dsv'
+[9.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/hook/cmake_prefix_path.sh'
+[9.138s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/learn_moveit/lib'
+[9.138s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/learn_moveit/bin'
+[9.138s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/learn_moveit/lib/pkgconfig/learn_moveit.pc'
+[9.138s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/learn_moveit/lib/python3.10/site-packages'
+[9.139s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/learn_moveit/bin'
+[9.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/package.ps1'
+[9.140s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/package.dsv'
+[9.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/package.sh'
+[9.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/package.bash'
+[9.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/package.zsh'
+[9.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lvy/arms_ws/install/learn_moveit/share/colcon-core/packages/learn_moveit)
+[9.144s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn_moveit)
+[9.144s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/learn_moveit' for CMake module files
+[9.145s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/learn_moveit' for CMake config files
+[9.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_moveit', 'cmake_prefix_path')
+[9.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/hook/cmake_prefix_path.ps1'
+[9.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/hook/cmake_prefix_path.dsv'
+[9.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/hook/cmake_prefix_path.sh'
+[9.148s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/learn_moveit/lib'
+[9.148s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/learn_moveit/bin'
+[9.148s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/learn_moveit/lib/pkgconfig/learn_moveit.pc'
+[9.149s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/learn_moveit/lib/python3.10/site-packages'
+[9.149s] Level 1:colcon.colcon_core.environment:checking '/home/lvy/arms_ws/install/learn_moveit/bin'
+[9.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/package.ps1'
+[9.150s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/package.dsv'
+[9.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/package.sh'
+[9.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/package.bash'
+[9.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/package.zsh'
+[9.154s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lvy/arms_ws/install/learn_moveit/share/colcon-core/packages/learn_moveit)
+[9.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.155s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.161s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.161s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.161s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.184s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.185s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lvy/arms_ws/install/local_setup.ps1'
+[9.186s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lvy/arms_ws/install/_local_setup_util_ps1.py'
+[9.188s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lvy/arms_ws/install/setup.ps1'
+[9.190s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lvy/arms_ws/install/local_setup.sh'
+[9.191s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lvy/arms_ws/install/_local_setup_util_sh.py'
+[9.192s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lvy/arms_ws/install/setup.sh'
+[9.194s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lvy/arms_ws/install/local_setup.bash'
+[9.195s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lvy/arms_ws/install/setup.bash'
+[9.197s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lvy/arms_ws/install/local_setup.zsh'
+[9.197s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lvy/arms_ws/install/setup.zsh'

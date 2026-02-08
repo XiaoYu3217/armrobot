@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.002372] (-) JobUnselected: {'identifier': 'panda_configure'}
+[0.002461] (-) JobUnselected: {'identifier': 'panda_description'}
+[0.002482] (learn_moveit) JobQueued: {'identifier': 'learn_moveit', 'dependencies': OrderedDict()}
+[0.002540] (learn_moveit) JobStarted: {'identifier': 'learn_moveit'}
+[0.029554] (learn_moveit) JobProgress: {'identifier': 'learn_moveit', 'progress': 'cmake'}
+[0.038339] (learn_moveit) Command: {'cmd': ['/usr/bin/cmake', '/home/lvy/arms_ws/src/learn_moveit', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/lvy/arms_ws/install/learn_moveit'], 'cwd': '/home/lvy/arms_ws/build/learn_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lvy'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lvy'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2543'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0dee8fcb29907db138446ac56982afac'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/lvy/arms_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lvy'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lvy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lvy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lvy-VirtualBox:@/tmp/.ICE-unix/2543,unix/lvy-VirtualBox:/tmp/.ICE-unix/2543'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/817f2542_e4d7_4a5b_b6f7_da7948073dde'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lvy/arms_ws/build/learn_moveit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0dee8fcb29907db138446ac56982afac'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble')]), 'shell': False}
+[0.101258] (-) TimerEvent: {}
+[0.154257] (learn_moveit) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.206958] (-) TimerEvent: {}
+[0.232990] (learn_moveit) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.245347] (learn_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.307444] (-) TimerEvent: {}
+[0.364540] (learn_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.369247] (learn_moveit) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.369843] (learn_moveit) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.373214] (learn_moveit) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.374436] (learn_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.422622] (-) TimerEvent: {}
+[0.524845] (-) TimerEvent: {}
+[0.539645] (learn_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.539868] (learn_moveit) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.539918] (learn_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.539961] (learn_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.539997] (learn_moveit) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.625283] (-) TimerEvent: {}
+[0.711774] (learn_moveit) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.744752] (-) TimerEvent: {}
+[0.772518] (learn_moveit) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.817809] (learn_moveit) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.845666] (-) TimerEvent: {}
+[0.874372] (learn_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.878410] (learn_moveit) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.888359] (learn_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.925071] (learn_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.928266] (learn_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.956442] (learn_moveit) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.956632] (-) TimerEvent: {}
+[0.970638] (learn_moveit) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.056826] (-) TimerEvent: {}
+[1.090345] (learn_moveit) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.126739] (learn_moveit) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.157496] (-) TimerEvent: {}
+[1.175788] (learn_moveit) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.176592] (learn_moveit) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.261924] (-) TimerEvent: {}
+[1.320862] (learn_moveit) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.322748] (learn_moveit) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.362652] (-) TimerEvent: {}
+[1.451986] (learn_moveit) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.453301] (learn_moveit) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.463403] (-) TimerEvent: {}
+[1.516288] (learn_moveit) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[1.524436] (learn_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[1.584575] (-) TimerEvent: {}
+[1.687161] (-) TimerEvent: {}
+[1.716224] (learn_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[1.725921] (learn_moveit) StdoutLine: {'line': b'-- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.740758] (learn_moveit) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.17 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.778857] (learn_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[1.787564] (-) TimerEvent: {}
+[1.873357] (learn_moveit) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.902207] (learn_moveit) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.902432] (-) TimerEvent: {}
+[1.902525] (learn_moveit) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.009425] (-) TimerEvent: {}
+[2.027304] (learn_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[2.060195] (learn_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[2.083104] (learn_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[2.109626] (-) TimerEvent: {}
+[2.178854] (learn_moveit) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.203921] (learn_moveit) StdoutLine: {'line': b'-- Generating done\n'}
+[2.210813] (learn_moveit) StdoutLine: {'line': b'-- Build files have been written to: /home/lvy/arms_ws/build/learn_moveit\n'}
+[2.211377] (-) TimerEvent: {}
+[2.250699] (learn_moveit) CommandEnded: {'returncode': 0}
+[2.252079] (learn_moveit) JobProgress: {'identifier': 'learn_moveit', 'progress': 'build'}
+[2.252167] (learn_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lvy/arms_ws/build/learn_moveit', '--', '-j4', '-l4'], 'cwd': '/home/lvy/arms_ws/build/learn_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lvy'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lvy'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2543'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0dee8fcb29907db138446ac56982afac'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/lvy/arms_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lvy'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lvy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lvy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lvy-VirtualBox:@/tmp/.ICE-unix/2543,unix/lvy-VirtualBox:/tmp/.ICE-unix/2543'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/817f2542_e4d7_4a5b_b6f7_da7948073dde'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lvy/arms_ws/build/learn_moveit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0dee8fcb29907db138446ac56982afac'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble')]), 'shell': False}
+[2.316462] (-) TimerEvent: {}
+[2.368235] (learn_moveit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o\x1b[0m\n'}
+[2.453707] (-) TimerEvent: {}
+[3.117589] (-) TimerEvent: {}
+[4.123373] (-) TimerEvent: {}
+[5.120881] (-) TimerEvent: {}
+[5.235500] (-) TimerEvent: {}
+[5.338736] (-) TimerEvent: {}
+[5.453765] (-) TimerEvent: {}
+[6.117661] (-) TimerEvent: {}
+[7.117431] (-) TimerEvent: {}
+[7.219415] (-) TimerEvent: {}
+[7.325812] (-) TimerEvent: {}
+[8.121367] (-) TimerEvent: {}
+[8.227587] (-) TimerEvent: {}
+[8.331716] (-) TimerEvent: {}
+[8.432766] (-) TimerEvent: {}
+[8.554351] (-) TimerEvent: {}
+[8.663199] (-) TimerEvent: {}
+[8.770474] (-) TimerEvent: {}
+[8.890261] (-) TimerEvent: {}
+[9.013805] (-) TimerEvent: {}
+[9.114787] (-) TimerEvent: {}
+[9.216607] (-) TimerEvent: {}
+[9.334731] (-) TimerEvent: {}
+[9.459634] (-) TimerEvent: {}
+[9.583378] (-) TimerEvent: {}
+[9.685375] (-) TimerEvent: {}
+[9.834542] (-) TimerEvent: {}
+[9.935416] (-) TimerEvent: {}
+[10.038792] (-) TimerEvent: {}
+[10.168405] (-) TimerEvent: {}
+[10.297593] (-) TimerEvent: {}
+[10.421453] (-) TimerEvent: {}
+[10.546315] (-) TimerEvent: {}
+[10.587905] (learn_moveit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hello_moveit\x1b[0m\n'}
+[10.833662] (-) TimerEvent: {}
+[10.887322] (learn_moveit) StdoutLine: {'line': b'[100%] Built target hello_moveit\n'}
+[10.913415] (learn_moveit) CommandEnded: {'returncode': 0}
+[10.916824] (learn_moveit) JobProgress: {'identifier': 'learn_moveit', 'progress': 'install'}
+[10.927981] (learn_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lvy/arms_ws/build/learn_moveit'], 'cwd': '/home/lvy/arms_ws/build/learn_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lvy'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lvy'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2543'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0dee8fcb29907db138446ac56982afac'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/lvy/arms_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lvy'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lvy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/lvy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lvy-VirtualBox:@/tmp/.ICE-unix/2543,unix/lvy-VirtualBox:/tmp/.ICE-unix/2543'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/817f2542_e4d7_4a5b_b6f7_da7948073dde'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lvy/arms_ws/build/learn_moveit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0dee8fcb29907db138446ac56982afac'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lvy/arms_ws/install/panda_configure:/home/lvy/arms_ws/install/panda_description:/home/lvy/arms_ws/install/learn_moveit:/opt/ros/humble')]), 'shell': False}
+[10.933963] (-) TimerEvent: {}
+[10.936717] (learn_moveit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.937447] (learn_moveit) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.937959] (learn_moveit) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/learn_moveit/lib/learn_moveit/hello_moveit\n'}
+[10.973573] (learn_moveit) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/launch/hello_moveit.launch.py\n'}
+[10.993393] (learn_moveit) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/learn_moveit/share/ament_index/resource_index/package_run_dependencies/learn_moveit\n'}
+[11.004914] (learn_moveit) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/learn_moveit/share/ament_index/resource_index/parent_prefix_path/learn_moveit\n'}
+[11.034433] (learn_moveit) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/environment/ament_prefix_path.sh\n'}
+[11.034600] (-) TimerEvent: {}
+[11.044637] (learn_moveit) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/environment/ament_prefix_path.dsv\n'}
+[11.057296] (learn_moveit) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/environment/path.sh\n'}
+[11.068363] (learn_moveit) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/environment/path.dsv\n'}
+[11.085514] (learn_moveit) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/local_setup.bash\n'}
+[11.101618] (learn_moveit) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/local_setup.sh\n'}
+[11.103281] (learn_moveit) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/local_setup.zsh\n'}
+[11.113611] (learn_moveit) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/local_setup.dsv\n'}
+[11.125321] (learn_moveit) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/package.dsv\n'}
+[11.134747] (-) TimerEvent: {}
+[11.137208] (learn_moveit) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/learn_moveit/share/ament_index/resource_index/packages/learn_moveit\n'}
+[11.147391] (learn_moveit) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/cmake/learn_moveitConfig.cmake\n'}
+[11.168152] (learn_moveit) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/cmake/learn_moveitConfig-version.cmake\n'}
+[11.170751] (learn_moveit) StdoutLine: {'line': b'-- Symlinking: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/package.xml\n'}
+[11.191470] (learn_moveit) CommandEnded: {'returncode': 0}
+[11.216321] (learn_moveit) JobEnded: {'identifier': 'learn_moveit', 'rc': 0}
+[11.217027] (-) EventReactorShutdown: {}

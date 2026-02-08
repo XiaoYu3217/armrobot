@@ -1,0 +1,3 @@
+[ 50%] Built target hello_moveit
+[35m[1mConsolidate compiler generated dependencies of target moveit_demo1[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/moveit_demo1.dir/src/moveit_demo1.cpp.o[0m

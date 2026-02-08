@@ -1,0 +1,24 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lvy/arms_ws/src/learn_moveit/src/moveit_demo1.cpp:2[m[K:
+[01m[K/home/lvy/arms_ws/src/learn_moveit/src/moveit_demo1.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lvy/arms_ws/src/learn_moveit/src/moveit_demo1.cpp:61:17:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+   61 |     RCLCPP_INFO([01;31m[KLOGGER[m[K,"准备闭合夹爪...");
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/lvy/arms_ws/src/learn_moveit/src/moveit_demo1.cpp:61:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   61 |     [01;31m[KRCLCPP_INFO[m[K(LOGGER,"准备闭合夹爪...");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lvy/arms_ws/src/learn_moveit/src/moveit_demo1.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_hand[m[K’ was not declared in this scope
+   62 |     [01;31m[Kmove_group_hand[m[K.setNameTarget("close");
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/moveit_demo1.dir/build.make:76：CMakeFiles/moveit_demo1.dir/src/moveit_demo1.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/moveit_demo1.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,26 @@
+[0.032s] Invoking command in '/home/lvy/arms_ws/build/learn_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lvy/arms_ws/build/learn_moveit -- -j4 -l4
+[0.103s] [35m[1mConsolidate compiler generated dependencies of target hello_moveit[0m
+[0.156s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[7.591s] [100%] [32m[1mLinking CXX executable hello_moveit[0m
+[7.918s] [100%] Built target hello_moveit
+[7.931s] Invoked command in '/home/lvy/arms_ws/build/learn_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lvy/arms_ws/build/learn_moveit -- -j4 -l4
+[7.934s] Invoking command in '/home/lvy/arms_ws/build/learn_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lvy/arms_ws/build/learn_moveit
+[7.944s] -- Install configuration: ""
+[7.944s] -- Installing: /home/lvy/arms_ws/install/learn_moveit/lib/learn_moveit/hello_moveit
+[7.944s] -- Set runtime path of "/home/lvy/arms_ws/install/learn_moveit/lib/learn_moveit/hello_moveit" to ""
+[7.944s] -- Up-to-date: /home/lvy/arms_ws/install/learn_moveit/share/ament_index/resource_index/package_run_dependencies/learn_moveit
+[7.944s] -- Up-to-date: /home/lvy/arms_ws/install/learn_moveit/share/ament_index/resource_index/parent_prefix_path/learn_moveit
+[7.945s] -- Up-to-date: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/environment/ament_prefix_path.sh
+[7.945s] -- Up-to-date: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/environment/ament_prefix_path.dsv
+[7.945s] -- Up-to-date: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/environment/path.sh
+[7.945s] -- Up-to-date: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/environment/path.dsv
+[7.945s] -- Up-to-date: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/local_setup.bash
+[7.945s] -- Up-to-date: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/local_setup.sh
+[7.945s] -- Up-to-date: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/local_setup.zsh
+[7.945s] -- Up-to-date: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/local_setup.dsv
+[7.945s] -- Installing: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/package.dsv
+[7.945s] -- Up-to-date: /home/lvy/arms_ws/install/learn_moveit/share/ament_index/resource_index/packages/learn_moveit
+[7.945s] -- Up-to-date: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/cmake/learn_moveitConfig.cmake
+[7.945s] -- Up-to-date: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/cmake/learn_moveitConfig-version.cmake
+[7.945s] -- Up-to-date: /home/lvy/arms_ws/install/learn_moveit/share/learn_moveit/package.xml
+[7.948s] Invoked command in '/home/lvy/arms_ws/build/learn_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lvy/arms_ws/build/learn_moveit

@@ -1,0 +1,1 @@
+/home/lvy/arms_ws/src/panda_robot/panda_configure/launch/moveit_rviz.launch.py

@@ -1,0 +1,6 @@
+Invoking command in '/home/lvy/arms_ws/build/learn_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lvy/arms_ws/src/learn_moveit -DCMAKE_INSTALL_PREFIX=/home/lvy/arms_ws/install/learn_moveit
+Invoked command in '/home/lvy/arms_ws/build/learn_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lvy/arms_ws/src/learn_moveit -DCMAKE_INSTALL_PREFIX=/home/lvy/arms_ws/install/learn_moveit
+Invoking command in '/home/lvy/arms_ws/build/learn_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lvy/arms_ws/build/learn_moveit -- -j4 -l4
+Invoked command in '/home/lvy/arms_ws/build/learn_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lvy/arms_ws/build/learn_moveit -- -j4 -l4
+Invoking command in '/home/lvy/arms_ws/build/learn_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lvy/arms_ws/build/learn_moveit
+Invoked command in '/home/lvy/arms_ws/build/learn_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lvy/arms_ws/build/learn_moveit

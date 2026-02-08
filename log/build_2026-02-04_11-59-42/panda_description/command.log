@@ -1,0 +1,6 @@
+Invoking command in '/home/lvy/arms_ws/build/panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lvy/arms_ws/src/panda_robot/panda_description -DCMAKE_INSTALL_PREFIX=/home/lvy/arms_ws/install/panda_description
+Invoked command in '/home/lvy/arms_ws/build/panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lvy/arms_ws/src/panda_robot/panda_description -DCMAKE_INSTALL_PREFIX=/home/lvy/arms_ws/install/panda_description
+Invoking command in '/home/lvy/arms_ws/build/panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lvy/arms_ws/build/panda_description -- -j4 -l4
+Invoked command in '/home/lvy/arms_ws/build/panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lvy/arms_ws/build/panda_description -- -j4 -l4
+Invoking command in '/home/lvy/arms_ws/build/panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lvy/arms_ws/build/panda_description
+Invoked command in '/home/lvy/arms_ws/build/panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lvy/arms_ws/build/panda_description
