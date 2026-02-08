@@ -1,0 +1,2 @@
+/src/panda_robot中放置了使用机械臂的rviz模型代码
+/src/learn_moveit/src/moveit_demo1.cpp是命令机械臂移动到指定位置的程序源码
